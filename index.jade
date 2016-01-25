@@ -1,0 +1,61 @@
+extends ./base.jade
+block principal
+      ul#myTab.nav.nav-tabs
+        li.active
+          a(href="#basicos" data-toggle="tab") Datos Basicos
+        li 
+          a(href="#estudios" data-toggle="tab") Estudios
+        li 
+          a(href="#profesional" data-toggle="tab") Perfil profesional
+      
+      #myTabContent.tab-content
+          .tab-pane.fade.in.active#basicos
+            table.table
+              tr
+                td Email
+                td 
+                  span.badge hv.edgarduarte@gmail.com
+              tr  
+                td Fecha de Nacimiento
+                td 
+                  span.badge 18 diciembre 1984
+              tr  
+                td Celular
+                td  
+                  span.badge 3115364696 
+              tr  
+                td Estado Civil
+                td  
+                  span.badge soltero
+              tr  
+              td Dirección
+              td  
+                span.badge Diagonal 16b 104-17        
+           
+          .tab-pane.fade#estudios
+              p.text-center FORMACIÓN ACADÉMICA
+                .row
+                  .col-md-4 Titulación
+                  .col-md-8 Tecnologo en analisis y desarrollo de sistemas de informacion
+            
+                .row
+                  .col-md-4 Año Graduacion
+                  .col-md-4 Cancelado
+              p.text-center SECUNDARIA
+                .row
+                  .col-md-4 Titulación
+                  .col-md-4 Bachiller
+                
+                .row
+                  .col-md-4 Institución
+                  .col-md-4 Pablo Neruda   
+            
+          .tab-pane.fade#profesional
+              p 
+                | Programador web con un año de experiencia laboral  desarrollando paginas web con HTML4, HTML5, JQUERY, PHP.
+
+                | Conocimientos en HTML versión 4 y 5 , CSS , JAVASCRIPT , JQUERY , JAVA , JSP , en motores de base de datos como MYSQL , SQLSERVER  y en RESPONSIVE WEB DESIGN para adaptar una pagina web a móviles y pc´s.
+
+                | Interes en aprender nuevas tecnologías de desarrollo.
+
+    

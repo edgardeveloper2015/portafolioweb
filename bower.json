@@ -1,0 +1,22 @@
+{
+  "name": "portafolioweb",
+  "authors": [
+    "Edgar Hosting <edgarhosting2015@gmail.com>"
+  ],
+  "description": "muestra hv edgar duarte y portafolio de productos",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+
+  }
+}

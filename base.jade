@@ -1,0 +1,70 @@
+doctype html
+html(lang='es')
+    head
+        title Hoja de vida
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+        meta(name='description', content='hoja de vida web')
+        meta(name='keywords', content='hv,edgar duarte,datos basicos, laboral,estudios')
+        meta(name='author', content='EdgarDuarte')
+        meta(name="robots", content="index, follow")
+
+        //- ----- link website ----- //
+        link(rel='icon' href='img/favicon.png' type='image/x-icon')
+
+        //- ----- CSS Files ----- //
+        link(rel="stylesheet", href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+        link(rel="stylesheet", href="css/cover.css")
+        link(rel="stylesheet", href="css/pagina.css")  
+    body
+        
+        
+      .site-wrapper
+        .site-wrapper-inner
+          .cover-container
+            .masthead.clearfix
+              .inner
+                h3.masthead-brand 
+                    img(src="img/edgarhv.jpg" alt="edgar" class="img-circle img-100")
+                    p.label.label-primary Edgar Humberto Piñeros Duarte    
+              nav
+                  ul.nav.masthead-nav
+                    li.active
+                      a(href="index.html") Acerca
+                    li 
+                      a(href="certificacion.html") Certificaciones Curso
+                    li 
+                      a(href="portafolio.html") Portafolio  
+            .inner.cover
+              block principal
+              
+              
+            .mastfoot
+              .inner 
+                .row
+                    .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                      a(href="https://www.facebook.com/edgardeveloper", target="_blank")    
+                        img(src="img/icon-facebook.png", alt="facebook")
+                 
+                    .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                      a(href="#twitter",target="_blank")    
+                        img(src="img/icon-twitter.jpeg", alt="twitter")
+                 
+                    .col-xs-2.col-sm-2.col-md-2.col-lg-2 
+                      a(href="http://www.youtube.com",target="_blank")    
+                        img(src="img/icon-youtube.png", alt="youtube")
+                     
+                    .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                      a(href="#github",target="_blank")    
+                        img(src="img/github-icon.png", alt="github-icon")
+                    .col-xs-3.col-sm-3.col-md-3.col-lg-3
+                          p
+                            | pagina web desarrollada con el prepocesador de html 
+                            strong.badge jade, bootstrap y bower
+                  
+                
+                
+      script(type='text/javascript', src='bower_components/jquery/dist/jquery.min.js')        
+      script(type='text/javascript', src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+      script(type='text/javascript', src='bower_components/bootstrap/dist/js/tab.js')
+          
